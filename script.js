@@ -6,7 +6,9 @@ const quotes = [
     "La racaille de shanghai. - Eric Judor",
     "Je suis rapide. - Kylian Mbappé qui imite Flash Macqueen",
     "La meilleure façon de prédire l'avenir c'est d'aller dans le futur. - Anonyme",
-    "Le présent c'est ce qui se passe maintenant. - Anonyme"
+    "Le présent c'est ce qui se passe maintenant. - Anonyme",
+    "Tu as mal, arrête. - ThéoBabac",
+    "Si tu as faim, il est conseillé de consommer de la nourriture. - Mattéo",
 ];
 
 document.getElementById('new-quote').addEventListener('click', function() {
