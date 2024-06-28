@@ -14,4 +14,14 @@ const quotes = [
 document.getElementById('new-quote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById('quote').innerText = quotes[randomIndex];
+    document.getElementById('copy-quote').style.display = 'inline-block'; // Affiche le bouton "Copier"
+});
+
+document.getElementById('copy-quote').addEventListener('click', function() {
+    const quoteText = document.getElementById('quote').innerText;
+    navigator.clipboard.writeText(quoteText).then(function() {
+        alert('Citation copiée dans le presse-papiers !');
+    }, function(err) {
+        console.error('Erreur lors de la copie de la citation : ', err);
+    });
 });
