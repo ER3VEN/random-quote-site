@@ -4,11 +4,12 @@ const quotes = [
     "On est 55 milliards sur Terre et faut que ce genre de truc sa arrive à quelqu'un, et cette personne c'est qui, c'est moi. - Tk78",
     "Es ce que c'est bon pour vous. - Squeezie",
     "La racaille de shanghai. - Eric Judor",
-    "Je suis rapide. - Flash Macqueen",
+    "Je suis rapide. - Kylian Mbappé qui imite Flash Macqueen",
     "La meilleure façon de prédire l'avenir c'est d'aller dans le futur. - Anonyme",
     "Le présent c'est ce qui se passe maintenant. - Anonyme",
     "Tu as mal, arrête. - ThéoBabac",
     "Si tu as faim, il est conseillé de consommer de la nourriture. - Mattéo",
+    "C'est bad long, on dirait un lundi. - Zafeel",
 ];
 
 document.getElementById('new-quote').addEventListener('click', function() {
